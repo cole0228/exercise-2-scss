@@ -3,3 +3,8 @@ All the files that are prefixed with an underscore
 "_name-of-file.scss" are called partials - meaning that their css isn't compiled unless its imported into an unprefixed .scss file */
 /* are placeholders for storing information that you want to reuse throughout your styles. You can store things like colors, font-stacks, or any other css value you might want to reuse.
 SCSS uses the '$' to declare variables. */
+/* line 3, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+body {
+  margin-top: 15%;
+  margin-left: 35%;
+  background-color: #028482; }
