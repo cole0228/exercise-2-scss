@@ -39,3 +39,7 @@ body {
   margin-top: 15%;
   margin-left: 35%;
   background-color: #028482; }
+
+/* line 27, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+.red {
+  background-color: #660000; }
