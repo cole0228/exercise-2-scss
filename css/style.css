@@ -91,3 +91,876 @@ div {
 /* line 75, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
 .fade:hover {
   opacity: 1; }
+
+/* Thank you elrumordelaluz for shake code
+shake animation from http://elrumordelaluz.github.io/csshake/ */
+/* line 82, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+.shake.shake-slow:hover {
+  -webkit-animation-name: shake-slow;
+  -ms-animation-name: shake-slow;
+  animation-name: shake-slow;
+  -webkit-animation-duration: 5s;
+  -ms-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+  -ms-animation-delay: 0s; }
+
+@-webkit-keyframes shake-slow {
+  /* line 100, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg); }
+
+  /* line 101, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  2% {
+    -webkit-transform: translate(-1px, 3px) rotate(-1.5deg); }
+
+  /* line 102, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  4% {
+    -webkit-transform: translate(-4px, 5px) rotate(-1.5deg); }
+
+  /* line 103, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  6% {
+    -webkit-transform: translate(-1px, 6px) rotate(-0.5deg); }
+
+  /* line 104, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  8% {
+    -webkit-transform: translate(5px, -4px) rotate(-3.5deg); }
+
+  /* line 105, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  10% {
+    -webkit-transform: translate(-7px, -3px) rotate(-3.5deg); }
+
+  /* line 106, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  12% {
+    -webkit-transform: translate(-1px, 8px) rotate(2.5deg); }
+
+  /* line 107, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  14% {
+    -webkit-transform: translate(3px, -5px) rotate(-1.5deg); }
+
+  /* line 108, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  16% {
+    -webkit-transform: translate(1px, 0px) rotate(2.5deg); }
+
+  /* line 109, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  18% {
+    -webkit-transform: translate(-6px, -10px) rotate(-0.5deg); }
+
+  /* line 110, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  20% {
+    -webkit-transform: translate(3px, -2px) rotate(1.5deg); }
+
+  /* line 111, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  22% {
+    -webkit-transform: translate(0px, 0px) rotate(-2.5deg); }
+
+  /* line 112, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  24% {
+    -webkit-transform: translate(-5px, -4px) rotate(1.5deg); }
+
+  /* line 113, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  26% {
+    -webkit-transform: translate(-1px, 3px) rotate(-3.5deg); }
+
+  /* line 114, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  28% {
+    -webkit-transform: translate(1px, 1px) rotate(-3.5deg); }
+
+  /* line 115, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  30% {
+    -webkit-transform: translate(-4px, 8px) rotate(1.5deg); }
+
+  /* line 116, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  32% {
+    -webkit-transform: translate(-9px, 7px) rotate(-3.5deg); }
+
+  /* line 117, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  34% {
+    -webkit-transform: translate(4px, -9px) rotate(-2.5deg); }
+
+  /* line 118, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  36% {
+    -webkit-transform: translate(1px, -6px) rotate(-2.5deg); }
+
+  /* line 119, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  38% {
+    -webkit-transform: translate(-4px, 0px) rotate(-2.5deg); }
+
+  /* line 120, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  40% {
+    -webkit-transform: translate(3px, -7px) rotate(0.5deg); }
+
+  /* line 121, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  42% {
+    -webkit-transform: translate(4px, 4px) rotate(-0.5deg); }
+
+  /* line 122, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  44% {
+    -webkit-transform: translate(8px, -4px) rotate(-2.5deg); }
+
+  /* line 123, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  46% {
+    -webkit-transform: translate(9px, 9px) rotate(-3.5deg); }
+
+  /* line 124, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  48% {
+    -webkit-transform: translate(6px, -8px) rotate(-0.5deg); }
+
+  /* line 125, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  50% {
+    -webkit-transform: translate(-1px, 4px) rotate(-3.5deg); }
+
+  /* line 126, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  52% {
+    -webkit-transform: translate(4px, 6px) rotate(-1.5deg); }
+
+  /* line 127, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  54% {
+    -webkit-transform: translate(9px, -3px) rotate(2.5deg); }
+
+  /* line 128, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  56% {
+    -webkit-transform: translate(8px, -2px) rotate(-3.5deg); }
+
+  /* line 129, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  58% {
+    -webkit-transform: translate(-2px, -9px) rotate(-0.5deg); }
+
+  /* line 130, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  60% {
+    -webkit-transform: translate(-1px, -5px) rotate(2.5deg); }
+
+  /* line 131, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  62% {
+    -webkit-transform: translate(-8px, 3px) rotate(2.5deg); }
+
+  /* line 132, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  64% {
+    -webkit-transform: translate(6px, -2px) rotate(-3.5deg); }
+
+  /* line 133, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  66% {
+    -webkit-transform: translate(-5px, 9px) rotate(-1.5deg); }
+
+  /* line 134, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  68% {
+    -webkit-transform: translate(3px, 1px) rotate(-0.5deg); }
+
+  /* line 135, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  70% {
+    -webkit-transform: translate(6px, 4px) rotate(-1.5deg); }
+
+  /* line 136, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  72% {
+    -webkit-transform: translate(-6px, -5px) rotate(1.5deg); }
+
+  /* line 137, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  74% {
+    -webkit-transform: translate(-8px, 0px) rotate(-0.5deg); }
+
+  /* line 138, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  76% {
+    -webkit-transform: translate(-5px, -8px) rotate(1.5deg); }
+
+  /* line 139, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  78% {
+    -webkit-transform: translate(5px, -3px) rotate(-1.5deg); }
+
+  /* line 140, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  80% {
+    -webkit-transform: translate(-6px, -3px) rotate(-1.5deg); }
+
+  /* line 141, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  82% {
+    -webkit-transform: translate(7px, 8px) rotate(-1.5deg); }
+
+  /* line 142, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  84% {
+    -webkit-transform: translate(-6px, 9px) rotate(0.5deg); }
+
+  /* line 143, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  86% {
+    -webkit-transform: translate(1px, 8px) rotate(-3.5deg); }
+
+  /* line 144, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  88% {
+    -webkit-transform: translate(-9px, -2px) rotate(1.5deg); }
+
+  /* line 145, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  90% {
+    -webkit-transform: translate(4px, -6px) rotate(-1.5deg); }
+
+  /* line 146, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  92% {
+    -webkit-transform: translate(0px, -1px) rotate(0.5deg); }
+
+  /* line 147, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  94% {
+    -webkit-transform: translate(2px, -9px) rotate(2.5deg); }
+
+  /* line 148, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  96% {
+    -webkit-transform: translate(-9px, 1px) rotate(-2.5deg); }
+
+  /* line 149, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  98% {
+    -webkit-transform: translate(-9px, -5px) rotate(-3.5deg); } }
+
+@-ms-keyframes shake-slow {
+  /* line 151, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  0% {
+    -ms-transform: translate(0px, 0px) rotate(0deg); }
+
+  /* line 152, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  2% {
+    -ms-transform: translate(-10px, 5px) rotate(-2.5deg); }
+
+  /* line 153, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  4% {
+    -ms-transform: translate(7px, 7px) rotate(-3.5deg); }
+
+  /* line 154, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  6% {
+    -ms-transform: translate(8px, -7px) rotate(-2.5deg); }
+
+  /* line 155, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  8% {
+    -ms-transform: translate(-8px, 3px) rotate(-0.5deg); }
+
+  /* line 156, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  10% {
+    -ms-transform: translate(3px, -10px) rotate(-1.5deg); }
+
+  /* line 157, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  12% {
+    -ms-transform: translate(-9px, -6px) rotate(2.5deg); }
+
+  /* line 158, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  14% {
+    -ms-transform: translate(-2px, -6px) rotate(-0.5deg); }
+
+  /* line 159, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  16% {
+    -ms-transform: translate(6px, -1px) rotate(0.5deg); }
+
+  /* line 160, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  18% {
+    -ms-transform: translate(5px, -1px) rotate(0.5deg); }
+
+  /* line 161, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  20% {
+    -ms-transform: translate(7px, -5px) rotate(-0.5deg); }
+
+  /* line 162, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  22% {
+    -ms-transform: translate(-8px, 5px) rotate(2.5deg); }
+
+  /* line 163, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  24% {
+    -ms-transform: translate(0px, 4px) rotate(2.5deg); }
+
+  /* line 164, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  26% {
+    -ms-transform: translate(-1px, 2px) rotate(-1.5deg); }
+
+  /* line 165, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  28% {
+    -ms-transform: translate(-1px, -1px) rotate(1.5deg); }
+
+  /* line 166, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  30% {
+    -ms-transform: translate(-5px, -5px) rotate(2.5deg); }
+
+  /* line 167, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  32% {
+    -ms-transform: translate(0px, 7px) rotate(-0.5deg); }
+
+  /* line 168, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  34% {
+    -ms-transform: translate(-9px, 3px) rotate(-0.5deg); }
+
+  /* line 169, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  36% {
+    -ms-transform: translate(3px, -5px) rotate(-2.5deg); }
+
+  /* line 170, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  38% {
+    -ms-transform: translate(5px, 2px) rotate(-0.5deg); }
+
+  /* line 171, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  40% {
+    -ms-transform: translate(6px, -3px) rotate(0.5deg); }
+
+  /* line 172, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  42% {
+    -ms-transform: translate(-4px, -6px) rotate(-0.5deg); }
+
+  /* line 173, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  44% {
+    -ms-transform: translate(9px, 2px) rotate(-3.5deg); }
+
+  /* line 174, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  46% {
+    -ms-transform: translate(6px, -4px) rotate(1.5deg); }
+
+  /* line 175, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  48% {
+    -ms-transform: translate(6px, 5px) rotate(2.5deg); }
+
+  /* line 176, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  50% {
+    -ms-transform: translate(-9px, -2px) rotate(-2.5deg); }
+
+  /* line 177, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  52% {
+    -ms-transform: translate(-7px, 9px) rotate(-0.5deg); }
+
+  /* line 178, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  54% {
+    -ms-transform: translate(-5px, -5px) rotate(-3.5deg); }
+
+  /* line 179, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  56% {
+    -ms-transform: translate(-6px, -10px) rotate(1.5deg); }
+
+  /* line 180, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  58% {
+    -ms-transform: translate(-3px, 1px) rotate(-3.5deg); }
+
+  /* line 181, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  60% {
+    -ms-transform: translate(3px, 5px) rotate(2.5deg); }
+
+  /* line 182, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  62% {
+    -ms-transform: translate(-1px, -8px) rotate(2.5deg); }
+
+  /* line 183, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  64% {
+    -ms-transform: translate(6px, -7px) rotate(-0.5deg); }
+
+  /* line 184, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  66% {
+    -ms-transform: translate(-7px, -1px) rotate(0.5deg); }
+
+  /* line 185, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  68% {
+    -ms-transform: translate(-3px, -4px) rotate(-1.5deg); }
+
+  /* line 186, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  70% {
+    -ms-transform: translate(-10px, 9px) rotate(2.5deg); }
+
+  /* line 187, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  72% {
+    -ms-transform: translate(9px, 9px) rotate(2.5deg); }
+
+  /* line 188, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  74% {
+    -ms-transform: translate(-6px, 8px) rotate(-0.5deg); }
+
+  /* line 189, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  76% {
+    -ms-transform: translate(-5px, -10px) rotate(-2.5deg); }
+
+  /* line 190, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  78% {
+    -ms-transform: translate(-7px, -9px) rotate(-0.5deg); }
+
+  /* line 191, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  80% {
+    -ms-transform: translate(8px, -4px) rotate(2.5deg); }
+
+  /* line 192, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  82% {
+    -ms-transform: translate(9px, 4px) rotate(-0.5deg); }
+
+  /* line 193, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  84% {
+    -ms-transform: translate(-1px, -1px) rotate(2.5deg); }
+
+  /* line 194, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  86% {
+    -ms-transform: translate(-6px, -3px) rotate(0.5deg); }
+
+  /* line 195, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  88% {
+    -ms-transform: translate(-2px, -4px) rotate(0.5deg); }
+
+  /* line 196, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  90% {
+    -ms-transform: translate(5px, 1px) rotate(0.5deg); }
+
+  /* line 197, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  92% {
+    -ms-transform: translate(1px, 2px) rotate(-3.5deg); }
+
+  /* line 198, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  94% {
+    -ms-transform: translate(-5px, -10px) rotate(1.5deg); }
+
+  /* line 199, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  96% {
+    -ms-transform: translate(-6px, 3px) rotate(-3.5deg); }
+
+  /* line 200, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  98% {
+    -ms-transform: translate(-1px, -7px) rotate(-2.5deg); } }
+
+@keyframes shake-slow {
+  /* line 202, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg); }
+
+  /* line 203, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  2% {
+    -webkit-transform: translate(6px, -7px) rotate(2.5deg);
+            transform: translate(6px, -7px) rotate(2.5deg); }
+
+  /* line 204, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  4% {
+    -webkit-transform: translate(8px, -8px) rotate(2.5deg);
+            transform: translate(8px, -8px) rotate(2.5deg); }
+
+  /* line 205, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  6% {
+    -webkit-transform: translate(1px, -8px) rotate(-3.5deg);
+            transform: translate(1px, -8px) rotate(-3.5deg); }
+
+  /* line 206, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  8% {
+    -webkit-transform: translate(-3px, 4px) rotate(-0.5deg);
+            transform: translate(-3px, 4px) rotate(-0.5deg); }
+
+  /* line 207, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  10% {
+    -webkit-transform: translate(0px, -3px) rotate(1.5deg);
+            transform: translate(0px, -3px) rotate(1.5deg); }
+
+  /* line 208, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  12% {
+    -webkit-transform: translate(-1px, 2px) rotate(0.5deg);
+            transform: translate(-1px, 2px) rotate(0.5deg); }
+
+  /* line 209, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  14% {
+    -webkit-transform: translate(6px, 6px) rotate(-1.5deg);
+            transform: translate(6px, 6px) rotate(-1.5deg); }
+
+  /* line 210, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  16% {
+    -webkit-transform: translate(-7px, 4px) rotate(-0.5deg);
+            transform: translate(-7px, 4px) rotate(-0.5deg); }
+
+  /* line 211, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  18% {
+    -webkit-transform: translate(7px, 8px) rotate(-3.5deg);
+            transform: translate(7px, 8px) rotate(-3.5deg); }
+
+  /* line 212, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  20% {
+    -webkit-transform: translate(-6px, 2px) rotate(1.5deg);
+            transform: translate(-6px, 2px) rotate(1.5deg); }
+
+  /* line 213, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  22% {
+    -webkit-transform: translate(9px, 5px) rotate(-1.5deg);
+            transform: translate(9px, 5px) rotate(-1.5deg); }
+
+  /* line 214, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  24% {
+    -webkit-transform: translate(7px, -2px) rotate(0.5deg);
+            transform: translate(7px, -2px) rotate(0.5deg); }
+
+  /* line 215, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  26% {
+    -webkit-transform: translate(-7px, -10px) rotate(-0.5deg);
+            transform: translate(-7px, -10px) rotate(-0.5deg); }
+
+  /* line 216, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  28% {
+    -webkit-transform: translate(-10px, -8px) rotate(-1.5deg);
+            transform: translate(-10px, -8px) rotate(-1.5deg); }
+
+  /* line 217, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  30% {
+    -webkit-transform: translate(8px, 4px) rotate(0.5deg);
+            transform: translate(8px, 4px) rotate(0.5deg); }
+
+  /* line 218, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  32% {
+    -webkit-transform: translate(0px, 4px) rotate(1.5deg);
+            transform: translate(0px, 4px) rotate(1.5deg); }
+
+  /* line 219, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  34% {
+    -webkit-transform: translate(-8px, 6px) rotate(-0.5deg);
+            transform: translate(-8px, 6px) rotate(-0.5deg); }
+
+  /* line 220, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  36% {
+    -webkit-transform: translate(-5px, 7px) rotate(1.5deg);
+            transform: translate(-5px, 7px) rotate(1.5deg); }
+
+  /* line 221, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  38% {
+    -webkit-transform: translate(-4px, -4px) rotate(-1.5deg);
+            transform: translate(-4px, -4px) rotate(-1.5deg); }
+
+  /* line 222, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  40% {
+    -webkit-transform: translate(9px, 4px) rotate(-1.5deg);
+            transform: translate(9px, 4px) rotate(-1.5deg); }
+
+  /* line 223, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  42% {
+    -webkit-transform: translate(9px, -5px) rotate(2.5deg);
+            transform: translate(9px, -5px) rotate(2.5deg); }
+
+  /* line 224, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  44% {
+    -webkit-transform: translate(-5px, -4px) rotate(-2.5deg);
+            transform: translate(-5px, -4px) rotate(-2.5deg); }
+
+  /* line 225, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  46% {
+    -webkit-transform: translate(7px, -7px) rotate(1.5deg);
+            transform: translate(7px, -7px) rotate(1.5deg); }
+
+  /* line 226, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  48% {
+    -webkit-transform: translate(-5px, 8px) rotate(0.5deg);
+            transform: translate(-5px, 8px) rotate(0.5deg); }
+
+  /* line 227, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  50% {
+    -webkit-transform: translate(9px, 1px) rotate(-1.5deg);
+            transform: translate(9px, 1px) rotate(-1.5deg); }
+
+  /* line 228, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  52% {
+    -webkit-transform: translate(-9px, -5px) rotate(-3.5deg);
+            transform: translate(-9px, -5px) rotate(-3.5deg); }
+
+  /* line 229, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  54% {
+    -webkit-transform: translate(-2px, 9px) rotate(1.5deg);
+            transform: translate(-2px, 9px) rotate(1.5deg); }
+
+  /* line 230, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  56% {
+    -webkit-transform: translate(6px, -1px) rotate(1.5deg);
+            transform: translate(6px, -1px) rotate(1.5deg); }
+
+  /* line 231, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  58% {
+    -webkit-transform: translate(-6px, 0px) rotate(-0.5deg);
+            transform: translate(-6px, 0px) rotate(-0.5deg); }
+
+  /* line 232, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  60% {
+    -webkit-transform: translate(3px, 1px) rotate(1.5deg);
+            transform: translate(3px, 1px) rotate(1.5deg); }
+
+  /* line 233, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  62% {
+    -webkit-transform: translate(5px, -7px) rotate(-0.5deg);
+            transform: translate(5px, -7px) rotate(-0.5deg); }
+
+  /* line 234, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  64% {
+    -webkit-transform: translate(9px, 2px) rotate(2.5deg);
+            transform: translate(9px, 2px) rotate(2.5deg); }
+
+  /* line 235, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  66% {
+    -webkit-transform: translate(6px, 0px) rotate(-2.5deg);
+            transform: translate(6px, 0px) rotate(-2.5deg); }
+
+  /* line 236, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  68% {
+    -webkit-transform: translate(5px, -4px) rotate(-2.5deg);
+            transform: translate(5px, -4px) rotate(-2.5deg); }
+
+  /* line 237, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  70% {
+    -webkit-transform: translate(-8px, 5px) rotate(-2.5deg);
+            transform: translate(-8px, 5px) rotate(-2.5deg); }
+
+  /* line 238, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  72% {
+    -webkit-transform: translate(-6px, -2px) rotate(0.5deg);
+            transform: translate(-6px, -2px) rotate(0.5deg); }
+
+  /* line 239, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  74% {
+    -webkit-transform: translate(-3px, 7px) rotate(-3.5deg);
+            transform: translate(-3px, 7px) rotate(-3.5deg); }
+
+  /* line 240, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  76% {
+    -webkit-transform: translate(-7px, -8px) rotate(-3.5deg);
+            transform: translate(-7px, -8px) rotate(-3.5deg); }
+
+  /* line 241, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  78% {
+    -webkit-transform: translate(-1px, -2px) rotate(2.5deg);
+            transform: translate(-1px, -2px) rotate(2.5deg); }
+
+  /* line 242, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  80% {
+    -webkit-transform: translate(8px, 6px) rotate(-2.5deg);
+            transform: translate(8px, 6px) rotate(-2.5deg); }
+
+  /* line 243, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  82% {
+    -webkit-transform: translate(-2px, -9px) rotate(2.5deg);
+            transform: translate(-2px, -9px) rotate(2.5deg); }
+
+  /* line 244, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  84% {
+    -webkit-transform: translate(8px, -10px) rotate(-0.5deg);
+            transform: translate(8px, -10px) rotate(-0.5deg); }
+
+  /* line 245, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  86% {
+    -webkit-transform: translate(-6px, 0px) rotate(2.5deg);
+            transform: translate(-6px, 0px) rotate(2.5deg); }
+
+  /* line 246, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  88% {
+    -webkit-transform: translate(-1px, 9px) rotate(-3.5deg);
+            transform: translate(-1px, 9px) rotate(-3.5deg); }
+
+  /* line 247, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  90% {
+    -webkit-transform: translate(-7px, 8px) rotate(1.5deg);
+            transform: translate(-7px, 8px) rotate(1.5deg); }
+
+  /* line 248, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  92% {
+    -webkit-transform: translate(-10px, -8px) rotate(0.5deg);
+            transform: translate(-10px, -8px) rotate(0.5deg); }
+
+  /* line 249, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  94% {
+    -webkit-transform: translate(-8px, 6px) rotate(1.5deg);
+            transform: translate(-8px, 6px) rotate(1.5deg); }
+
+  /* line 250, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  96% {
+    -webkit-transform: translate(4px, -9px) rotate(2.5deg);
+            transform: translate(4px, -9px) rotate(2.5deg); }
+
+  /* line 251, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  98% {
+    -webkit-transform: translate(-4px, 9px) rotate(0.5deg);
+            transform: translate(-4px, 9px) rotate(0.5deg); } }
+
+@-webkit-keyframes shake-hard {
+  /* line 253, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg); }
+
+  /* line 254, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  2% {
+    -webkit-transform: translate(-5px, -7px) rotate(-3.5deg); }
+
+  /* line 255, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  4% {
+    -webkit-transform: translate(-9px, -7px) rotate(-0.5deg); }
+
+  /* line 256, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  6% {
+    -webkit-transform: translate(-3px, -1px) rotate(-0.5deg); }
+
+  /* line 257, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  8% {
+    -webkit-transform: translate(2px, -8px) rotate(-3.5deg); }
+
+  /* line 258, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  10% {
+    -webkit-transform: translate(-2px, -4px) rotate(0.5deg); }
+
+  /* line 259, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  12% {
+    -webkit-transform: translate(-8px, 6px) rotate(2.5deg); }
+
+  /* line 260, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  14% {
+    -webkit-transform: translate(-1px, 3px) rotate(-0.5deg); }
+
+  /* line 261, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  16% {
+    -webkit-transform: translate(-7px, 0px) rotate(1.5deg); }
+
+  /* line 262, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  18% {
+    -webkit-transform: translate(-6px, -6px) rotate(2.5deg); }
+
+  /* line 263, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  20% {
+    -webkit-transform: translate(-8px, 5px) rotate(2.5deg); }
+
+  /* line 264, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  22% {
+    -webkit-transform: translate(-3px, 1px) rotate(-1.5deg); }
+
+  /* line 265, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  24% {
+    -webkit-transform: translate(-7px, 5px) rotate(0.5deg); }
+
+  /* line 266, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  26% {
+    -webkit-transform: translate(1px, 8px) rotate(0.5deg); }
+
+  /* line 267, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  28% {
+    -webkit-transform: translate(-4px, 5px) rotate(2.5deg); }
+
+  /* line 268, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  30% {
+    -webkit-transform: translate(-4px, -2px) rotate(-0.5deg); }
+
+  /* line 269, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  32% {
+    -webkit-transform: translate(2px, -2px) rotate(-1.5deg); }
+
+  /* line 270, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  34% {
+    -webkit-transform: translate(-3px, 6px) rotate(-3.5deg); }
+
+  /* line 271, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  36% {
+    -webkit-transform: translate(4px, 5px) rotate(-0.5deg); }
+
+  /* line 272, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  38% {
+    -webkit-transform: translate(-4px, -4px) rotate(-0.5deg); }
+
+  /* line 273, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  40% {
+    -webkit-transform: translate(-8px, 3px) rotate(-0.5deg); }
+
+  /* line 274, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  42% {
+    -webkit-transform: translate(-2px, -8px) rotate(0.5deg); }
+
+  /* line 275, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  44% {
+    -webkit-transform: translate(-2px, 8px) rotate(-3.5deg); }
+
+  /* line 276, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  46% {
+    -webkit-transform: translate(-1px, -6px) rotate(-2.5deg); }
+
+  /* line 277, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  48% {
+    -webkit-transform: translate(-8px, 7px) rotate(-2.5deg); }
+
+  /* line 278, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  50% {
+    -webkit-transform: translate(4px, -10px) rotate(1.5deg); }
+
+  /* line 279, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  52% {
+    -webkit-transform: translate(-9px, 8px) rotate(-1.5deg); }
+
+  /* line 280, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  54% {
+    -webkit-transform: translate(2px, -6px) rotate(-2.5deg); }
+
+  /* line 281, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  56% {
+    -webkit-transform: translate(-6px, -4px) rotate(-3.5deg); }
+
+  /* line 282, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  58% {
+    -webkit-transform: translate(8px, 8px) rotate(1.5deg); }
+
+  /* line 283, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  60% {
+    -webkit-transform: translate(-2px, -7px) rotate(-3.5deg); }
+
+  /* line 284, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  62% {
+    -webkit-transform: translate(-7px, -6px) rotate(0.5deg); }
+
+  /* line 285, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  64% {
+    -webkit-transform: translate(0px, 7px) rotate(1.5deg); }
+
+  /* line 286, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  66% {
+    -webkit-transform: translate(-3px, -3px) rotate(2.5deg); }
+
+  /* line 287, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  68% {
+    -webkit-transform: translate(4px, 1px) rotate(2.5deg); }
+
+  /* line 288, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  70% {
+    -webkit-transform: translate(2px, 3px) rotate(0.5deg); }
+
+  /* line 289, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  72% {
+    -webkit-transform: translate(4px, -10px) rotate(-0.5deg); }
+
+  /* line 290, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  74% {
+    -webkit-transform: translate(-1px, 7px) rotate(0.5deg); }
+
+  /* line 291, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  76% {
+    -webkit-transform: translate(-3px, 3px) rotate(-3.5deg); }
+
+  /* line 292, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  78% {
+    -webkit-transform: translate(-2px, 9px) rotate(-2.5deg); }
+
+  /* line 293, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  80% {
+    -webkit-transform: translate(7px, -5px) rotate(-3.5deg); }
+
+  /* line 294, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  82% {
+    -webkit-transform: translate(-8px, 8px) rotate(-0.5deg); }
+
+  /* line 295, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  84% {
+    -webkit-transform: translate(5px, 8px) rotate(-3.5deg); }
+
+  /* line 296, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  86% {
+    -webkit-transform: translate(4px, 0px) rotate(1.5deg); }
+
+  /* line 297, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  88% {
+    -webkit-transform: translate(-7px, 4px) rotate(2.5deg); }
+
+  /* line 298, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  90% {
+    -webkit-transform: translate(4px, 8px) rotate(0.5deg); }
+
+  /* line 299, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  92% {
+    -webkit-transform: translate(0px, -3px) rotate(-3.5deg); }
+
+  /* line 300, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  94% {
+    -webkit-transform: translate(7px, -3px) rotate(1.5deg); }
+
+  /* line 301, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  96% {
+    -webkit-transform: translate(-6px, -6px) rotate(0.5deg); }
+
+  /* line 302, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+  98% {
+    -webkit-transform: translate(-4px, 7px) rotate(-2.5deg); } }
