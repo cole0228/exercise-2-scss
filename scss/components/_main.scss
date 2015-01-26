@@ -50,3 +50,15 @@ p{
 	text-align: center;
 	margin-left:5%;
 }
+
+div{
+	width: 50%
+	min-width: 17em;
+	border-color: $border;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-right-style: solid;
+	border-right-width: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
