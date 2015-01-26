@@ -87,3 +87,7 @@ div {
   -o-transition: opacity 0.25s ease-in-out;
   -ms-transition: opacity 0.25s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out; }
+
+/* line 75, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+.fade:hover {
+  opacity: 1; }

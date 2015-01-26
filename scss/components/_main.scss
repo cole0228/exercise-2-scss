@@ -71,3 +71,7 @@ div{
 	-ms-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
 }
+
+.fade:hover{
+	opacity: 1;
+}
