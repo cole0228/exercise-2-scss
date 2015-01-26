@@ -43,3 +43,11 @@ body {
 /* line 27, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
 .red {
   background-color: #660000; }
+
+/* line 31, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+h1 {
+  font-family: 'Voltaire', sans-serif;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 7px;
+  text-align: center; }
