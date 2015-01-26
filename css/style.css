@@ -66,3 +66,15 @@ p {
   font-size: 12em;
   text-align: center;
   margin-left: 5%; }
+
+/* line 54, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+div {
+  width: 50%;
+  min-width: 17em;
+  border-color: #3d535c;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-style: solid;
+  border-right-width: 5px;
+  padding-left: 6px;
+  padding-right: 6px; }
