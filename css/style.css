@@ -59,3 +59,10 @@ p {
   color: #fff;
   letter-spacing: 4.5px;
   text-align: center; }
+
+/* line 47, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+.whale {
+  color: #000;
+  font-size: 12em;
+  text-align: center;
+  margin-left: 5%; }
