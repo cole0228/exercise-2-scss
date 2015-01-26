@@ -51,3 +51,11 @@ h1 {
   font-weight: 800;
   letter-spacing: 7px;
   text-align: center; }
+
+/* line 39, /Users/rebeckacole/Documents/Graphic Design Semester 6/Web Development V/exercise-2-scss/scss/components/main */
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 4.5px;
+  text-align: center; }
